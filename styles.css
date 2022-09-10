@@ -185,6 +185,55 @@ body{
 }
 
 
+@media screen and (max-width:600px){
+    .socials{
+        display: flex;
+        gap: .5rem;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+    }
+    #date::after{
+        content: '08 Feb 2022';
+        font-size: 0.8rem;
+        color: var(--color-secondary-text);
+        padding-left: 4rem;
+        display: block;
+    }
+    
+    #lines::after{
+        content: '182 Lines';
+        font-size: 0.9rem;
+        padding-left: 9rem;
+        color: var(--color-secondary-text);
+        display: block;
+    }
+    .text-head{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .text{
+        font-size: .8rem;
+        font-weight: 500;
+    }
+    
+    .number-section{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+        padding-right: 0.5rem;
+    }
+    
+    .numbers span{
+        font-size: 0.8rem;
+        color: var(--color-line-text);
+        cursor: pointer;
+    }
+}
+
+
 :root,
     :root.dark{
         --color-bg: #252526;
