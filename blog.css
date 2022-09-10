@@ -207,6 +207,14 @@ body{
         gap: .5rem;
         flex-direction: column;
     }
+    .header a{
+        padding: .7rem .3rem;
+        width: 20%;
+        background-color: var(--color-tab);
+        color: var(--color-tab-text);
+        text-decoration: none;
+        font-size: .7rem;
+    }
 }
 
 
